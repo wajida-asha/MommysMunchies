@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "160770943931",
+    "project_id": "mommysmunchies-b2ba0",
+    "storage_bucket": "mommysmunchies-b2ba0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160770943931:android:e8be75ff626d4bdde2329e",
+        "android_client_info": {
+          "package_name": "com.example.mommysmunchies"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWkd-Bep_ZrMlLtx7TdZl3r1W4D6DVcdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
