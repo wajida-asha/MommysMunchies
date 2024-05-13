@@ -9,18 +9,28 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.example.mommysmunchies.R;
+import com.example.mommysmunchies.databinding.ActivityLoginBinding;
+import android.content.Intent;
+
 
 public class LoginActivity extends AppCompatActivity {
+    private ActivityLoginBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_login);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
+
+        binding = ActivityLoginBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
+
+        binding.btnSignUp.setOnClickListener(view -> {
+            startActivity(new Intent(LoginActivity.this, SignUpActivity.class));
         });
+
+        binding.txtForgetPassword.setOnClickListener(view -> {
+            startActivity(new Intent(LoginActivity.this, ForgetActivity.class));
+        });
+
     }
 }
