@@ -14,4 +14,6 @@
     <string name="bgcolor">bgcolor</string>
     <string name="username">Username</string>
     <string name="login_string">Already have an account?<b>Login Here</b></string>
+    <string name="done">Done</string>
+    <string name="backbtn">backbtn</string>
 </resources>
