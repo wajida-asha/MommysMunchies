@@ -28,9 +28,15 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    buildFeatures {
+        dataBinding true
+        viewBinding true
+    }
 }
 
 dependencies {
+    def nav_version = "2.4.0"
+
     implementation platform(libs.firebase.bom)
     implementation libs.appcompat
     implementation libs.material
@@ -44,4 +50,47 @@ dependencies {
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
+
+    // Firebase Library Auth,RealTime, Storage and UI
+    implementation platform(libs.firebase.bom.v2620)
+    //noinspection UseTomlInstead
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation libs.firebase.ui.database
+    implementation libs.firebase.database.v2000
+    implementation libs.firebase.auth.v2101
+    implementation libs.firebase.storage.v2000
+
+
+    // google map dependencies
+
+    implementation libs.places
+    implementation libs.android.maps.utils
+    implementation libs.play.services.maps
+    implementation libs.google.maps.services
+    implementation libs.slf4j.simple
+
+    // Retrofit Library
+    implementation libs.retrofit
+    implementation libs.converter.gson
+    implementation libs.converter.scalars
+
+    // Glide Library
+    implementation libs.glide
+    annotationProcessor libs.compiler
+
+    // Image Cropper Library
+    //api libs.android.image.cropper
+
+    // Shape library to draw curves
+    //implementation libs.shapeofview
+
+    // Circular Indicator library
+    //implementation libs.lib
+
+    // Circular ImageView library
+    implementation libs.circleimageview
+
+    // Navigation Component
+    implementation libs.navigation.fragment
+    implementation libs.navigation.ui
 }
