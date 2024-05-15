@@ -36,6 +36,8 @@ android {
 
 dependencies {
     def nav_version = "2.4.0"
+    //noinspection UseTomlInstead
+    //implementation 'com.github.CanHub:Android-Image-Cropper:4.5.0'
 
     implementation platform(libs.firebase.bom)
     implementation libs.appcompat
@@ -59,6 +61,32 @@ dependencies {
     implementation libs.firebase.database.v2000
     implementation libs.firebase.auth.v2101
     implementation libs.firebase.storage.v2000
+
+// https://mvnrepository.com/artifact/com.theartofdev.edmodo/android-image-cropper
+    //implementation libs.android.image.cropper.v214
+    // https://mvnrepository.com/artifact/com.theartofdev.edmodo/android-image-cropper
+    //implementation libs.android.image.cropper.v270
+    // https://mvnrepository.com/artifact/com.theartofdev.edmodo/android-image-cropper
+    // https://mvnrepository.com/artifact/com.theartofdev.edmodo/android-image-cropper
+    implementation libs.android.image.cropper
+    // https://mvnrepository.com/artifact/androidx.exifinterface/exifinterface
+    runtimeOnly libs.exifinterface
+// https://mvnrepository.com/artifact/androidx.appcompat/appcompat
+    runtimeOnly libs.appcompat
+    // https://mvnrepository.com/artifact/com.theartofdev.edmodo/android-image-cropper
+    implementation libs.android.image.cropper.v270
+    // https://mvnrepository.com/artifact/com.theartofdev.edmodo/Android-Image-Cropper
+
+    implementation libs.android.image.cropper
+
+
+
+
+
+
+
+    // https://mvnrepository.com/artifact/com.github.CanHub/Android-Image-Cropper
+    //implementation 'com.github.CanHub:Android-Image-Cropper:4.3.2'
 
 
     // google map dependencies
@@ -86,9 +114,15 @@ dependencies {
 
     // Circular Indicator library
     //implementation libs.lib
+    // https://mvnrepository.com/artifact/com.victor/lib
+    //noinspection UseTomlInstead
+    implementation 'com.victor:lib:1.0.4'
+    //implementation 'com.github.silvestrpredko:CircularProgressBar:VERSION'
+
 
     // Circular ImageView library
     implementation libs.circleimageview
+    //implementation libs.lib
 
     // Navigation Component
     implementation libs.navigation.fragment
