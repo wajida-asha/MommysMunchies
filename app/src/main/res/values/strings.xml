@@ -16,4 +16,19 @@
     <string name="login_string">Already have an account?<b>Login Here</b></string>
     <string name="done">Done</string>
     <string name="backbtn">backbtn</string>
+    <string name="home">Home</string>
+    <string name="saved_places">Saved Places</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="amy_gmail_com">amy@gmail.com</string>
+    <string name="amy">Amy</string>
+
+    <string name="open_navigation_drawer">Open Drawer</string>
+    <string name="close_navigation_drawer">Open Drawer</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="saved_places_fragment">Saved Places Fragment</string>
+    <string name="settings_fragment">Settings Fragment</string>
 </resources>

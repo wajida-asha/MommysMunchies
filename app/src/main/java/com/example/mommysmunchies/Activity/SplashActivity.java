@@ -6,13 +6,8 @@ import android.os.Handler;
 import android.content.Intent;
 
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
-import com.example.mommysmunchies.MainActivity;
 import com.example.mommysmunchies.R;
 import com.google.firebase.auth.FirebaseAuth;
 
