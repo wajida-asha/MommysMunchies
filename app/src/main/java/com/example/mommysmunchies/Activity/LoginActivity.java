@@ -2,15 +2,9 @@ package com.example.mommysmunchies.Activity;
 
 import android.os.Bundle;
 
-import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
-import com.example.mommysmunchies.MainActivity;
-import com.example.mommysmunchies.R;
 import com.example.mommysmunchies.Utility.LoadingDialog;
 import com.example.mommysmunchies.databinding.ActivityLoginBinding;
 import com.google.android.gms.tasks.OnCompleteListener;
