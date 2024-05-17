@@ -34,4 +34,5 @@
     <string name="verify_email">Verify Email</string>
     <string name="change_password">Change Password</string>
     <string name="logout">Logout</string>
+    <string name="search_place">Search Place</string>
 </resources>
