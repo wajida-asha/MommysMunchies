@@ -31,5 +31,4 @@
     <string name="home_fragment">Home Fragment</string>
     <string name="saved_places_fragment">Saved Places Fragment</string>
     <string name="settings_fragment">Settings Fragment</string>
-    <string name="search_place">Search Place</string>
 </resources>
