@@ -26,6 +26,7 @@ googleServices = "4.4.1"
 firebaseDatabase = "21.0.0"
 firebaseAuth = "23.0.0"
 firebaseStorage = "21.0.0"
+materialVersion = "1.8.0"
 navigationFragment = "2.7.7"
 slf4jSimple = "2.0.13"
 playServicesMaps = "18.2.0"
@@ -68,6 +69,7 @@ firebase-database = { group = "com.google.firebase", name = "firebase-database",
 firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
 firebase-storage = { group = "com.google.firebase", name = "firebase-storage", version.ref = "firebaseStorage" }
 
+material-v180 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
 navigation-fragment = { module = "androidx.navigation:navigation-fragment", version.ref = "navigationFragment" }
 navigation-safe-args-gradle-plugin = { module = "androidx.navigation:navigation-safe-args-gradle-plugin", version.ref = "navigationFragment" }
 navigation-ui = { module = "androidx.navigation:navigation-ui", version.ref = "navigationFragment" }
