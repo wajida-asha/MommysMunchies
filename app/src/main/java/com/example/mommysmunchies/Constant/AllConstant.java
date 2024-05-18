@@ -9,6 +9,7 @@ import java.util.Arrays;
 public class AllConstant {
     public static final int STORAGE_REQUEST_CODE =1000 ;
     public static final String IMAGE_PATH = "/Profile/image_profile.jpg";
+    public static int LOCATION_REQUEST_CODE = 2000;
 
     public static ArrayList<PlaceModel> placesName = new ArrayList<>(
             Arrays.asList(
