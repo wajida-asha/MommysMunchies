@@ -17,4 +17,4 @@ Technologies :
 4: Data Binding 
 5: Firebase Authentication, Real-Time Database & Cloud Storage
 
-In order to enable the Google Map SDK Android, Places, and Direction APIs, you must clone this project, create a new Firebase Project, link it to this project, and generate your own Google API KEY to get the google map feature enabled.
+In order to enable the Google Map SDK Android, Places, and Direction APIs, you must clone this project, create a new Firebase Project, link it to this project, and generate your own Google API KEY.
